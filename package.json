@@ -1,0 +1,46 @@
+{
+  "name": "raiyanplanet-dark-theme",
+  "displayName": "Raiyanplanet Theme",
+  "publisher": "raiyanplanet",
+  "author": "Raiyan",
+  "description": "A minimalistic Dark VSCode theme.",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "contrast",
+    "dark",
+    "light",
+    "raiyanplanet",
+    "darest",
+    "Darknight",
+    "purple",
+    "Raiyan"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RaiyanPlanet Purple World",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiyanplanet-purple.json"
+      },
+      {
+        "label": "RaiyanPlanet Dark Knight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiyanplanet-Darknight.json"
+      },
+      {
+        "label": "RaiyanPlanet Darkest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiyanplanet-darkest.json"
+      }
+    ]
+  }
+}
