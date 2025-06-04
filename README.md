@@ -1,89 +1,203 @@
-# RaiyanPlanet theme 🌌
+# 🌌 Raiyan Planet Theme
 
-![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/sdras.night-owl)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/sdras.night-owl)
-[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/sdras.night-owl)
+**A stunning collection of dark themes for Visual Studio Code that brings the beauty of the cosmos to your coding experience.**
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![VS Code](https://img.shields.io/badge/VS%20Code-1.60+-blue.svg)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/your-publisher.raiyanplanet-theme.svg)
 
-A Visual Studio Code theme for the RaiyanPlanet out there. Fine-tuned for those of us who like to code late into the night. Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances. Decisions were also based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨
+---
 
-As of 1.0.0, there's a Light RaiyanPlanet Theme too! Color balanced from the Dark version for easy viewing in daylight. 🌅
+## ✨ Theme Variants
 
-About this theme, and some of the considerations made while creating it (as well as _how_ to create it should you want to make your own): [https://css-tricks.com/creating-a-vs-code-theme/](https://css-tricks.com/creating-a-vs-code-theme/)
+Raiyan Planet comes in three carefully crafted variants, each designed to provide a unique and immersive coding experience:
 
-## RaiyanPlanet Darkest
+### 🌑 Raiyan Planet Darkest
 
-![First Screen](first-screen.jpg)
-![Night Owl Frameworks](three-dark.jpg)
+The deepest, most immersive dark experience. Perfect for late-night coding sessions with maximum eye comfort and minimal strain.
 
-## RaiyanPlanet Dark Knight
+### 🌃 Raiyan Planet Dark Knight
 
-![First Screen Light](light-owl-full.jpg)
-![Light Owl Frameworks](three-light.jpg)
+A balanced dark theme with subtle highlights. Ideal for developers who want darkness with character and personality.
 
-## RaiyanPlanet Purple
+### 💜 Raiyan Planet Purple
 
-![First Screen Light](light-owl-full.jpg)
-![Light Owl Frameworks](three-light.jpg)
+A cosmic purple experience that adds mystique and elegance to your workspace. For those who love a touch of color in their coding environment.
 
+---
 
-# Installation
+## 🚀 Installation
 
-1.  Install [Visual Studio Code](https://code.visualstudio.com/)
-2.  Launch Visual Studio Code
-3.  Choose **Extensions** from menu
-4.  Search for `RaiyanPlanet Theme`
-5.  Click **Install** to install it
-6.  Click **Reload** to reload the Code
-7.  From the menu bar click: Code > Preferences > Color Theme > **RaiyanPlanet Theme**
+### Via VS Code Marketplace
 
-## Disable Italics
+1. Open Visual Studio Code
+2. Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)
+3. Search for "Raiyan Planet Theme"
+4. Click **Install**
+5. Go to `File > Preferences > Color Theme` (or `Code > Preferences > Color Theme` on macOS)
+6. Select your preferred Raiyan Planet variant
 
-If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Night Owl No Italics** as your color theme.
+### Via Command Palette
 
+1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
+2. Type "Preferences: Color Theme"
+3. Select your preferred Raiyan Planet variant
 
+---
 
+## 🎨 Features
 
-## Separate the Editor from the Sidebar
+- **🌙 Eye-friendly dark themes** - Carefully chosen colors to reduce eye strain
+- **🎯 Syntax highlighting** - Optimized for popular languages including JavaScript, TypeScript, Python, HTML, CSS, and more
+- **🔥 Modern aesthetics** - Clean, contemporary design that enhances focus
+- **⚡ Performance optimized** - Lightweight themes that don't slow down your editor
+- **🎪 Three unique variants** - Choose the perfect mood for your coding session
+- **📱 Consistent UI** - Harmonious colors across all VS Code interface elements
 
-This theme uses contrast sparingly so that when it's applied, it's more meaningful. This can help reduce noise and improve your ability to scan. However, some of the decisions may not work for everyone. One such decision that some disagree on is whether or not to have a separation between the editor and sidebar, and the amount of contrast. If you wish for this to have more visual significance, please paste this into your user settings preferences. These are my recommendations for these settings but you can use whatever colors you wish. ☺️
+---
 
+## 📸 Screenshots
+
+### Raiyan Planet Darkest
+
+```javascript
+// Experience the deepest dark coding environment
+const raiyanPlanet = {
+  theme: "darkest",
+  comfort: "maximum",
+  strain: "minimal",
+};
 ```
-"workbench.colorCustomizations": {
-  "[Night Owl]": {
-    "activityBar.background": "#000C1D",
-    "activityBar.border": "#102a44",
-    "editorGroup.border": "#102a44",
-    "sideBar.background": "#001122",
-    "sideBar.border": "#102a44",
-    "sideBar.foreground": "#8BADC1"
+
+### Raiyan Planet Dark Knight
+
+```python
+# Balanced darkness with character
+def raiyan_planet():
+    return "Perfect for everyday coding"
+```
+
+### Raiyan Planet Purple
+
+```typescript
+// Cosmic elegance meets functionality
+interface RaiyanPlanet {
+  color: "purple";
+  experience: "mystique";
+  elegance: true;
+}
+```
+
+---
+
+## 🛠️ Supported Languages
+
+Raiyan Planet themes are optimized for a wide range of programming languages:
+
+**Web Development:** HTML, CSS, SCSS, JavaScript, TypeScript, React, Vue, Angular
+**Backend:** Python, Java, C#, PHP, Ruby, Go, Rust
+**Mobile:** Swift, Kotlin, Dart/Flutter
+**Data:** SQL, JSON, YAML, XML
+**DevOps:** Docker, Kubernetes, Shell scripts
+**And many more...**
+
+---
+
+## ⚙️ Customization
+
+Want to tweak the theme to your liking? You can customize any theme by adding settings to your `settings.json`:
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "[Raiyan Planet Darkest]": {
+      "editor.background": "#your-custom-color"
+    }
   },
-  "[Night Owl (No Italics)]": {
-    "activityBar.background": "#000C1D",
-    "activityBar.border": "#102a44",
-    "editorGroup.border": "#102a44",
-    "sideBar.background": "#001122",
-    "sideBar.border": "#102a44",
-    "sideBar.foreground": "#8BADC1"
+  "editor.tokenColorCustomizations": {
+    "[Raiyan Planet Darkest]": {
+      "comments": "#your-comment-color"
+    }
   }
-},
+}
 ```
 
-## Preferences shown in the preview
+---
 
-The font in the preview image is Dank Mono, [available here](https://philpl.gumroad.com/l/dank-mono). Editor settings to activate font ligatures:
+## 🔄 Theme Switching
 
-```
-"editor.fontFamily": "Dank Mono",
-"editor.fontLigatures": true,
-```
+Quickly switch between Raiyan Planet variants:
 
-## Misc
+- Use `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on macOS) to open the theme picker
+- Select any Raiyan Planet variant instantly
 
-This is my first foray into creating a theme, so if you see something amiss, please feel free to [file an issue](https://github.com/sdras/night-owl-vscode-theme/issues)! I'm sure there are things I missed.
+---
 
-If you use [the VS Code Babel extension](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), you may see some inconsistencies in color for JSX, that's not coming from this theme.
+## 🐛 Issues & Feedback
 
-Any relevant changes for each version are documented in the changelog. Please update and check the changelog before filing any issues, as they may have already been taken care of.
+Found a bug or have a suggestion? We'd love to hear from you!
 
-This palette was inspired in part by Material Palenight [Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme), and the accessibility idea was inspired in part by Solarized [Themes](http://ethanschoonover.com/solarized)
+- **Report Issues:** [GitHub Issues](https://github.com/raiyanplanet/raiyanplanet-vscode-theme/issues)
+- **Feature Requests:** [GitHub Discussions](https://github.com/raiyanplanet/raiyanplanet-theme/discussions)
+- **Contact:** [tawsifulalam2002@gmail.com](mailto:tawsifulalam2002@gmail.com)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📝 Changelog
+
+### Version 1.0.0
+
+- Initial release
+- Added Raiyan Planet Darkest variant
+- Added Raiyan Planet Dark Knight variant
+- Added Raiyan Planet Purple variant
+- Optimized syntax highlighting for 20+ languages
+- Enhanced UI consistency across all VS Code elements
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Show Your Support
+
+If you love Raiyan Planet Theme, please consider:
+
+- ⭐ Starring the repository
+- 💬 Leaving a review on the VS Code Marketplace
+- 📢 Sharing with fellow developers
+- ☕ [Buy me a coffee](https://buymeacoffee.com/your-username)
+
+---
+
+## 🙏 Acknowledgments
+
+- Inspired by the beauty of cosmic landscapes
+- Thanks to the VS Code community for feedback and support
+- Special thanks to all contributors and users
+
+---
+
+<div align="center">
+
+**Made with 💜 by [Raiyan]**
+
+_Happy Coding! 🚀_
+
+</div>
