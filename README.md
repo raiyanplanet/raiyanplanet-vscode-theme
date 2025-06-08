@@ -1,3 +1,7 @@
+<div align="center" >
+<img src="icon.png" width="100"  />
+</div>
+
 # 🌌 Raiyan Planet Theme
 
 **A stunning collection of dark themes for Visual Studio Code that brings the beauty of the cosmos to your coding experience.**
@@ -17,13 +21,37 @@ Raiyan Planet comes in three carefully crafted variants, each designed to provid
 
 The deepest, most immersive dark experience. Perfect for late-night coding sessions with maximum eye comfort and minimal strain.
 
+### Typescript
+
+![My Cat](./images/image2.png)
+
+### Python
+
+![My Cat](./images/image3.png)
+
 ### 🌃 Raiyan Planet Dark Knight
 
 A balanced dark theme with subtle highlights. Ideal for developers who want darkness with character and personality.
 
+### Typescript
+
+![My Cat](./images/d1.png)
+
+### Python
+
+![My Cat](./images/d2.png)
+
 ### 💜 Raiyan Planet Purple
 
 A cosmic purple experience that adds mystique and elegance to your workspace. For those who love a touch of color in their coding environment.
+
+### Typescript
+
+![My Cat](./images/p1.png)
+
+### Python
+
+![My Cat](./images/p2.png)
 
 ---
 
@@ -56,8 +84,6 @@ A cosmic purple experience that adds mystique and elegance to your workspace. Fo
 - **📱 Consistent UI** - Harmonious colors across all VS Code interface elements
 
 ---
-
-## 📸 Screenshots
 
 ### Raiyan Planet Darkest
 
@@ -194,7 +220,7 @@ If you love Raiyan Planet Theme, please consider:
 
 ---
 
-<div align="center">
+<div >
 
 **Made with 💜 by [Raiyan]**
 
